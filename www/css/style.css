@@ -1,0 +1,111 @@
+/* Empty. Add your own CSS if you like */
+/* Empty. Add your own CSS if you like */
+
+
+
+#nav {
+  position: relative;
+}
+
+.new_game {
+  margin-left: 10px;
+  border-left: 15px solid #00ff00 !important;
+  margin-bottom: 10px;
+}
+
+.new_game:hover {
+  background-color: grey;
+  text-decoration: underline;
+}
+
+h5 {
+    color: #ffffff;
+}
+
+.info {
+  margin-left: 10px;
+  border-left: 15px solid #ff0000 !important;
+  margin-bottom: 10px;
+}
+
+.info:hover {
+  background-color: grey;
+  text-decoration: underline;
+}
+
+.stats {
+  margin-left: 10px;
+  border-left: 15px solid #0000ff !important;
+  margin-bottom: 10px;
+}
+
+.stats:hover {
+  background-color: grey;
+  text-decoration: underline;
+}
+
+a.tab-item:hover {
+  color: #0000ff;
+  font-weight: 600;
+}
+
+a.tab-item {
+  color: #000000;
+}
+
+a.tab-item-active {
+  border-bottom: 2px solid #000000;
+}
+
+ion-content {
+  padding-left: 5px;
+  padding-top: 15px !important;
+}
+
+img#qwirkle {
+  position: relative;
+  top: -10px;
+  left: 12px;
+  width:95%;
+  border: 16px inset grey;
+  transform: rotate(-10deg);
+  z-index: -1;
+}
+
+img#qwirkle_info {
+  float: right;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  width:50%;
+ }
+
+h4 {
+  margin-left: 5px;
+}
+
+ul,p {
+  margin-left: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+  text
+}
+
+li {
+  margin-left: 10px;
+  list-style-type: disc;
+}
+
+/* spelbord */
+.board-row {
+  border-bottom: 2px solid #000;
+  border-top: 2px solid #000;
+  min-height: 34px;
+}
+
+.board-col {
+  float:left;
+  border: 1px solid #00f;
+  width: 32px;
+  height: 32px;
+}
