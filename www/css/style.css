@@ -97,6 +97,22 @@ li {
 }
 
 /* spelbord */
+
+#game {
+  width: 100%;
+  min-height: 90%;
+  position: absolute;
+  margin-left: -5px;
+}
+
+#board {
+  background-color: lightgrey;
+  position: absolute;
+  top:0px;
+  min-width: 100%;
+  min-height: 80%;
+}
+
 .board-row {
   border-bottom: 2px solid #000;
   border-top: 2px solid #000;
@@ -104,8 +120,28 @@ li {
 }
 
 .board-col {
-  float:left;
+  float: left;
   border: 1px solid #00f;
   width: 32px;
   height: 32px;
+}
+
+#yourtiles {
+  width: 100%;
+  min-height: 50px;
+  position: fixed;
+  bottom: 100px;
+  background-color: brown;
+}
+
+
+
+ion-content {
+  min-height: 90%;
+  position: absolute !important;
+  border: 2px solid #000;
+}
+
+.scroll {
+  height: 100%;
 }
