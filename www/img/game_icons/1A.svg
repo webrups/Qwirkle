@@ -1,0 +1,24 @@
+<svg id="Laag_1" data-name="Laag 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27 27">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #4d4d4d;
+      }
+
+      .cls-2 {
+        fill: lime;
+      }
+
+      .cls-3 {
+        fill: #333;
+      }
+    </style>
+  </defs>
+  <title>1A</title>
+  <g>
+    <polygon class="cls-1" points="27 24 24 27 0 27 3 24 27 24"/>
+    <rect x="3" width="24" height="24"/>
+    <circle class="cls-2" cx="15" cy="12" r="9"/>
+    <polygon class="cls-3" points="3 0 3 24 0 27 0 3 3 0"/>
+  </g>
+</svg>

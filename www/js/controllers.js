@@ -13,4 +13,5 @@ angular.module('starter.controllers', [])
 })
 
 .controller('QwirkleCtrl', function($scope) {
+ 
 })

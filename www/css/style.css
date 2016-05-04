@@ -131,11 +131,26 @@ li {
   min-height: 50px;
   position: fixed;
   bottom: 100px;
-  background-color: brown;
+  background-color: darkgrey;
+  padding: 10px;
+  padding-left: 30px;
+
+}
+
+.game-icon {
+  width: 32px;
+  height: 32px;
+}
+
+#yourtiles img.game-icon {
+  margin-right: 15px;
 }
 
 
 
+
+
+/* --- */
 ion-content {
   min-height: 90%;
   position: absolute !important;

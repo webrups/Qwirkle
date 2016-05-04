@@ -1,13 +1,17 @@
 <ion-view view-title="Qwirkle" name="tab-qwirkle">
-  <ion-content>
+  <ion-content scroll="false">
     <h2> Spel </h2>
     <div id="game">
-      <div id="board">
-        
+      <div id="board" ng-drop="true">
       </div>
 
       <div id="yourtiles">
-        <img src="" />
+        <img src="img/game_icons/1A.svg" class="game-icon" ng-draggable="true" id="draggable"/>
+        <img src="img/game_icons/1B.svg" class="game-icon"/>
+        <img src="img/game_icons/1C.svg" class="game-icon"/>
+        <img src="img/game_icons/1A.svg" class="game-icon"/>
+        <img src="img/game_icons/1B.svg" class="game-icon"/>
+        <img src="img/game_icons/1C.svg" class="game-icon" id="grid-snap"/>
       </div>
     </div>
 
