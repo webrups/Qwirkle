@@ -13,6 +13,6 @@ angular.module('starter.controllers', [])
 })
 
 .controller('QwirkleCtrl', function($scope) {
-  $scope.list1 = {title: 'AngularJS - Drag Me'};
-  $scope.list2 = {};
+  
+ 
 })

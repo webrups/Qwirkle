@@ -1,13 +1,9 @@
 <ion-view view-title="Qwirkle" name="tab-qwirkle">
-  <ion-content>
+  <ion-content scroll="false">
     <h2> Spel </h2>
-    <div id="game" data-tap-disabled="true" scroll="false">
-      <div id="board" ng-drop="true" drop="true">       
-      </div>
-
-      
-      <div id="yourtiles" ng-drag="true">
-        <img ng-drag="true" src="img/game_icons/1A.svg" class="game-icon" />
+    <div id="game" scroll="false">
+      <div id="board" class="gridsnap">           
+        <img src="img/game_icons/1A.svg" class="game-icon draggable" />
         <img src="img/game_icons/1B.svg" class="game-icon"/>
         <img src="img/game_icons/1C.svg" class="game-icon"/>
         <img src="img/game_icons/1A.svg" class="game-icon"/>
@@ -15,8 +11,18 @@
         <img src="img/game_icons/1C.svg" class="game-icon"/>
       </div>
     </div>
-
-
   </ion-content>
 </ion-view>
+<script type="text/javascript">
+  $(function() {
+    $(".game-icon").draggable();
+    $("#board").droppable();
+  }
+</script>
+<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+
+  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+
 
