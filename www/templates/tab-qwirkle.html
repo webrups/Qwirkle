@@ -1,24 +1,37 @@
 <ion-view view-title="Qwirkle" name="tab-qwirkle">
   <ion-content scroll="false">
     <h2> Spel </h2>
-    <div id="game" scroll="false">
-      <div id="board" class="gridsnap">           
-        <img src="img/game_icons/1A.svg" class="game-icon draggable" />
-        <img src="img/game_icons/1B.svg" class="game-icon"/>
-        <img src="img/game_icons/1C.svg" class="game-icon"/>
-        <img src="img/game_icons/1A.svg" class="game-icon"/>
-        <img src="img/game_icons/1B.svg" class="game-icon"/>
-        <img src="img/game_icons/1C.svg" class="game-icon"/>
+    <div id="score">
+      <div id="yourscore">
+        <h5> Your score: {{score}} </h5>
       </div>
     </div>
+
+    <div id="game" scroll="false">
+      <div id="board" class="gridsnap">
+        <div id="row1" class="board-row">
+          <div id="1A" class="board-col">
+          </div>
+          <div id="1B" class="board-col">
+          </div>
+          <div id="1C" class="board-col">
+          </div>
+        </div>
+      </div>           
+      
+      <div id="yourtiles">  
+        <img src="img/game_icons/1A.svg" class="game-icon draggable" />
+        <img src="img/game_icons/1B.svg" class="game-icon draggable"/>
+        <img src="img/game_icons/1C.svg" class="game-icon draggable"/>
+        <img src="img/game_icons/1A.svg" class="game-icon draggable"/>
+        <img src="img/game_icons/1B.svg" class="game-icon draggable"/>
+        <img src="img/game_icons/1C.svg" class="game-icon draggable"/>
+      </div>
+    </div>
+    
   </ion-content>
 </ion-view>
-<script type="text/javascript">
-  $(function() {
-    $(".game-icon").draggable();
-    $("#board").droppable();
-  }
-</script>
+
 <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
 
   <script src="//code.jquery.com/jquery-1.10.2.js"></script>
