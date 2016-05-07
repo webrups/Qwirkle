@@ -12,8 +12,8 @@ interact(element)
       relativePoints: [ { x: 0, y: 0 } ]
     },
     inertia: true,
-    restrict: {
-      restriction: element.parentNode,
+    restrict: "#board" {
+      restriction: element,
       elementRect: { top: 0, left: 0, bottom: 1, right: 1 },
       endOnly: true
     }

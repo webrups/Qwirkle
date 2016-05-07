@@ -2,10 +2,10 @@
 interact('.draggable')
   .draggable({
     // enable inertial throwing
-    inertia: true,
+    inertia: false,
     // keep the element within the area of it's parent
     restrict: {
-      restriction: false,
+      restriction: "#board",
       endOnly: true,
       elementRect: { top: 0, left: 0, bottom: 1, right: 1 }
     },
@@ -14,7 +14,6 @@ interact('.draggable')
 
     // call this function on every dragmove event
     onmove: dragMoveListener,
-    // call this function on every dragend event
     onend: function (event) {
       var textEl = event.target.querySelector('p');
 
@@ -23,6 +22,8 @@ interact('.draggable')
         + (Math.sqrt(event.dx * event.dx +
                      event.dy * event.dy)|0) + 'px');
     }
+    // call this function on every dragend event
+    
   });
 
   function dragMoveListener (event) {

@@ -173,3 +173,8 @@ ion-content {
 .scroll {
   height: 100%;
 }
+
+/* drag & drop */
+.drop-active {
+  background-color: lightblue;
+  border: 2px inset red;

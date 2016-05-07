@@ -15,5 +15,6 @@ angular.module('starter.controllers', [])
 .controller('QwirkleCtrl', function($scope) {
   var score = "0";
   $scope.score = score;
+  
 })
 
