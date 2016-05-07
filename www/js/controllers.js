@@ -10,11 +10,11 @@ angular.module('starter.controllers', [])
 })
 
 .controller('FriendsCtrl', function($scope) {
+
 })
 
 .controller('QwirkleCtrl', function($scope) {
   var score = "0";
   $scope.score = score;
-  
 })
 

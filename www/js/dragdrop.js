@@ -6,7 +6,7 @@
 // enable draggables to be dropped into this
 interact('.dropzone').dropzone({
   // only accept elements matching this CSS selector
-  accept: '#yes-drop',
+  accept: '.game-icon',
   // Require a 75% element overlap for a drop to be possible
   overlap: 0.75,
 
@@ -35,6 +35,7 @@ interact('.dropzone').dropzone({
     event.relatedTarget.textContent = 'Dropped';
     event.relatedTarget.classList.remove('can-drop');
     event.relatedTarget.classList.add('dropped');
+    event.relatedTarget.setAttribute('score', '1');
   },
   
   ondropdeactivate: function (event) {

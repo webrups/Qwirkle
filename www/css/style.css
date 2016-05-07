@@ -109,19 +109,18 @@ li {
   background-color: lightgrey;
   position: absolute;
   top:0px;
-  min-width: 100%;
+  left: 10px;
+  min-width: 95%;
   min-height: 70%;
 }
 
 .board-row {
-  border-bottom: 2px solid #000;
-  border-top: 2px solid #000;
-  min-height: 34px;
+  min-height: 32px;
 }
 
 .board-col {
   float: left;
-  border-right:1px solid #000;
+  border: 1px solid #000;
   width: 32px;
   height: 32px;
 }
@@ -177,4 +176,8 @@ ion-content {
 /* drag & drop */
 .drop-active {
   background-color: lightblue;
-  border: 2px inset red;
+}
+
+canvas#board {
+  border: 1px solid #000;
+}
